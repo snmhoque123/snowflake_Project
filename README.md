@@ -1,4 +1,4 @@
-# Snowflake_Project
+# Snowflake Project
 This project involves analyzing competitors of "RareBurger" in the New York area by querying data from Snowflake Marketplace. The SQL code provided selects relevant data, such as location, region, postal code, and various spending metrics, from both the "RareBurger" restaurant's revenue data and a sample dataset of other NYC restaurants. By filtering the competitors using the CATEGORY_TAGS field to include only those tagged as 'Burger', the query effectively identifies and aggregates information on competing burger establishments in the area.
 
 ### Here's a breakdown of the SQL code:
