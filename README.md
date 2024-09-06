@@ -1,4 +1,8 @@
 # Snowflake Project
+## Project Summary
+This project analyzes "RareBurger" competitors in New York using data from the Snowflake Marketplace. SQL queries retrieve relevant metrics like location, spending, and customer data from both "RareBurger's" revenue and a sample dataset of NYC restaurants, filtering for those tagged as 'Burger' to focus on direct competitors. Key metrics such as total spend, online spend, and median spend per transaction are selected and combined using a UNION operation, providing a comprehensive dataset for comparison. This analysis can be visualized in a dashboard to help "RareBurger" assess its competitive position and inform strategic decisions within the burger restaurant industry.
+
+## Introduction
 This project involves analyzing competitors of "RareBurger" in the New York area by querying data from Snowflake Marketplace. The SQL code provided selects relevant data, such as location, region, postal code, and various spending metrics, from both the "RareBurger" restaurant's revenue data and a sample dataset of other NYC restaurants. By filtering the competitors using the CATEGORY_TAGS field to include only those tagged as 'Burger', the query effectively identifies and aggregates information on competing burger establishments in the area.
 
 ### Here's a breakdown of the SQL code:
